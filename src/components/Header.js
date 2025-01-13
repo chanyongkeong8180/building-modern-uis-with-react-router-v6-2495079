@@ -16,15 +16,10 @@ export default function Header() {
       </Link>
 
       <nav>
-        <NavLink to="/" className={getClass}>
-          Home
-        </NavLink>
-        <NavLink to="/about" className={getClass}>
-          About
-        </NavLink>
-        <NavLink to="/categories" className={getClass}>
-          Categories
-        </NavLink>
+        <NavLink to="/" className={getClass}>Home</NavLink>
+        <NavLink to="/about" className={getClass}>About</NavLink>
+        <NavLink to="/categories" className={getClass}>Categories</NavLink>
+        <NavLink to="/register" className={getClass}>Register</NavLink>
       </nav>
     </header>
   );

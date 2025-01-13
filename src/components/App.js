@@ -15,7 +15,7 @@ function App() {
       <Header />
 
       <Routes>
-        <Route path="/" element={<Home title="School of Infocomm at Republic Polytechnic"/>} />
+      <Route path="/" element={<Home title="Welcome to Red30 Tech" />}/>
         <Route path="about" element={<About />}/>
         <Route path="categories" element={<Categories />}>
           <Route path=":catId" element={<Category />}>

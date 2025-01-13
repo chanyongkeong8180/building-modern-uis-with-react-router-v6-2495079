@@ -15,16 +15,16 @@ function App() {
       <Header />
 
       <Routes>
-        <Route path="/" element={<Home title="Welcome to Red30 Tech" />} />
-        <Route path="about" element={<About />} />
+        <Route path="/" element={<Home title="School of Infocomm at Republic Polytechnic"/>} />
+        <Route path="about" element={<About />}/>
         <Route path="categories" element={<Categories />}>
           <Route path=":catId" element={<Category />}>
             <Route path=":sessionId" element={<Session />} />
           </Route>
           <Route index element={<h3>Select a category from above</h3>}/>
         </Route>
-        <Route path="register" element={<Register />} />
-        <Route path="confirmed" element={<Confirmation />} />
+        <Route path="register" element={<Register />}/>
+        <Route path="confirmed" element={<Confirmation />}/>
         <Route
           path="*"
           element={<h1 className="not-found">Page Not Found</h1>}
@@ -32,7 +32,7 @@ function App() {
       </Routes>
 
       <footer className="container">
-        &copy;2025 | <a href="https://red30tech.com/">Red30 Tech</a>
+        &copy;2025 | <a href="https://www.rp.edu.sg/soi/home">SOI RP</a>
       </footer>
     </div>
   );

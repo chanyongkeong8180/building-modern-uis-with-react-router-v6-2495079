@@ -4,9 +4,9 @@ export default function Confirmation() {
   return (
     <div className="container">
       <h1>Thank You!</h1>
-      <p>You're now registered for Red30 Tech.</p>
+      <p>Dear {state.name}, you are now registered for Red30 Tech.</p>
       { state && (
-        <p>We have sent more details to {state.name}.</p>
+        <p>We have sent more details to {state.email}.</p>
       )}
     </div>
   );

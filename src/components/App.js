@@ -27,7 +27,7 @@ function App() {
       </Routes>
 
       <footer className="container">
-        &copy;2022 | <a href="https://red30tech.com/">Red30 Tech</a>
+        &copy;2025 | <a href="https://red30tech.com/">Red30 Tech</a>
       </footer>
     </div>
   );

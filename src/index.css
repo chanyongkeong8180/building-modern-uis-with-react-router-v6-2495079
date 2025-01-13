@@ -126,10 +126,6 @@ ul.session-list {
   display: flex;
 }
 
-.session + .session {
-  margin-left: 1.5em;
-}
-
 .session-name {
   font-size: 1.125rem;
   font-weight: bold;
